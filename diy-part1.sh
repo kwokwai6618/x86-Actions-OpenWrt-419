@@ -22,4 +22,4 @@ rm -rf package/lean/luci-theme-argon && mv luci-theme-argon package/lean/
 # echo "src-git openclash https://github.com/vernesong/OpenClash;master" >> feeds.conf.default
 
 # Add clash
-git clone -b test https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash
+git clone -b master https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash
