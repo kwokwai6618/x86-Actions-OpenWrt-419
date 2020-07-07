@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: x86_64branchesmaster Build
+name: x86_64 lede master Build
 
 on:
   repository_dispatch:
