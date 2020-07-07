@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: x86 Build
+name: x86_64branchesmaster Build
 
 on:
   repository_dispatch:
