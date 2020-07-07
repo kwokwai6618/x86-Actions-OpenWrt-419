@@ -22,7 +22,7 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git
 mv luci-app-vssr package/lean/
 
 # Add a feed source
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 # Add openclash
 # echo "src-git openclash https://github.com/vernesong/OpenClash;master" >> feeds.conf.default
