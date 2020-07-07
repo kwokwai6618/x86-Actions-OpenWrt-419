@@ -23,7 +23,7 @@ on:
     types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede/tree/33f7cb735300bd9a099995236ed768c8925fec75
+  REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
