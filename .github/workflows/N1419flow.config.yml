@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: x86-Actions-OpenWrt-419-flow
+name: N1-Actions-OpenWrt-419-flow
 
 on:
   repository_dispatch:
