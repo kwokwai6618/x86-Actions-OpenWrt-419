@@ -18,7 +18,7 @@ on:
     paths:
       - 'N1419flow.config'
   schedule:
-    - cron: 30 14 * * *
+#    - cron: 30 14 * * *
 #  watch:
 #    types: started
 
