@@ -21,6 +21,12 @@ mv lua-maxminddb package/lean/
 git clone https://github.com/jerrykuku/luci-app-vssr.git
 mv luci-app-vssr package/lean/
 
+# add JD
+git clone https://github.com/jerrykuku/node-request.git
+mv node-request package/lean/
+git git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
+mv luci-app-jd-dailybonus package/lean/
+
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
