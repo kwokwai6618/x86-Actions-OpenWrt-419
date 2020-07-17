@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: NEO2JD
+name: X86JD
 
 on:
   repository_dispatch:
@@ -16,9 +16,9 @@ on:
     branches:
       - master
     paths:
-      - 'NEO2JD.config'
+      - 'X86JD.config'
   schedule:
-    - cron: 30 03 * * *
+    - cron: 40 03 * * *
 #  watch:
 #    types: started
 
@@ -26,7 +26,7 @@ env:
   REPO_URL: https://github.com/kwokwai6618/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: NEO2JD.config
+  CONFIG_FILE: X86JD.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
