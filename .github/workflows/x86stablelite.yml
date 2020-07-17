@@ -18,7 +18,7 @@ on:
     paths:
       - 'x86stablelite.config'
   schedule:
-    - cron: 50 11 * * *
+#    - cron: 50 11 * * *
 #  watch:
 #    types: started
 
