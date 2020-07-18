@@ -24,7 +24,7 @@ mv luci-app-vssr package/lean/
 # add JD
 git clone https://github.com/jerrykuku/node-request.git
 mv node-request package/lean/
-git git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
 mv luci-app-jd-dailybonus package/lean/
 
 # Add a feed source
