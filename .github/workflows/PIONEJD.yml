@@ -18,7 +18,7 @@ on:
     paths:
       - 'PIONEJD.config'
   schedule:
-    - cron: 36 02 * * *
+#    - cron: 36 02 * * *
 #  watch:
 #    types: started
 
