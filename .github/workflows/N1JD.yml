@@ -18,7 +18,7 @@ on:
     paths:
       - 'N1JD.config'
   schedule:
-    - cron: 55 05 * * *
+#    - cron: 55 05 * * *
 #  watch:
 #    types: started
 
