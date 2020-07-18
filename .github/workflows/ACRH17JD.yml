@@ -18,7 +18,7 @@ on:
     paths:
       - 'ACRH17JD.config'
   schedule:
-    - cron: 20 11 * * *
+    - cron: 30 17 * * *
 #  watch:
 #    types: started
 
