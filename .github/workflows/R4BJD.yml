@@ -18,7 +18,7 @@ on:
     paths:
       - 'R4BJD.config'
   schedule:
-    - cron: 12 14 * * *
+#    - cron: 12 14 * * *
 #  watch:
 #    types: started
 
