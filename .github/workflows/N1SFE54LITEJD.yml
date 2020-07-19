@@ -18,7 +18,7 @@ on:
     paths:
       - 'N1SFE54LITEJD.config'
   schedule:
-#    - cron: 46 02 * * *
+    - cron: 46 03 * * *
 #  watch:
 #    types: started
 
