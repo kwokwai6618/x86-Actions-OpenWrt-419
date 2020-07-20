@@ -18,7 +18,7 @@ on:
     paths:
       - 'Redmi2100.config'
   schedule:
-    - cron: 18 09 * * *
+#    - cron: 18 09 * * *
 #  watch:
 #    types: started
 
