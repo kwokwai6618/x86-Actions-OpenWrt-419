@@ -18,7 +18,7 @@ on:
     paths:
       - 'NVDIAJD.config'
   schedule:
-    - cron: 12 04 * * *
+#    - cron: 12 04 * * *
 #  watch:
 #    types: started
 
