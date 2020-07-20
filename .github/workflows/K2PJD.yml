@@ -18,7 +18,7 @@ on:
     paths:
       - 'K2PJD.config'
   schedule:
-    - cron: 18 15 * * *
+#    - cron: 18 15 * * *
 #  watch:
 #    types: started
 
