@@ -18,7 +18,7 @@ on:
     paths:
       - 'x86419sfe32bit.config'
   schedule:
-    - cron: 46 15 * * *
+    - cron: 47 01 * * *
 #  watch:
 #    types: started
 
@@ -120,7 +120,6 @@ jobs:
       if: env.UPLOAD_FIRMWARE == 'true' && !cancelled()
       run: |
         cd openwrt/bin/
-        rm -rf packages
         echo "::set-env name=FIRMWARE::$PWD"
         echo "::set-output name=status::success"
     - name: Upload firmware directory
