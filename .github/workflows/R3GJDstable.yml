@@ -18,7 +18,7 @@ on:
     paths:
       - 'R3GJDstable.config'
   schedule:
-    - cron: 07 11 * * *
+#    - cron: 07 11 * * *
 #  watch:
 #    types: started
 
