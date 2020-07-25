@@ -18,7 +18,7 @@ on:
     paths:
       - 'RAS3BLEDEJD.config'
   schedule:
-#    - cron: 34 10 * * *
+    - cron: 46 14 * * *
 #  watch:
 #    types: started
 
