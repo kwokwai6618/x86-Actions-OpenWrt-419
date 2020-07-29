@@ -18,7 +18,7 @@ on:
     paths:
       - 'N1+liteF.config'
   schedule:
-#    - cron: 31 12 * * *
+    - cron: 29 12 * * *
 #  watch:
 #    types: started
 
