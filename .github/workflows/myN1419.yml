@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: myX86419
+name: myN1419
 
 on:
   repository_dispatch:
@@ -16,17 +16,17 @@ on:
     branches:
       - master
     paths:
-      - 'myX86stablemod.config'
+      - 'myN1.config'
   schedule:
-#    - cron: 22 07 * * *
+    - cron: 51 11 * * *
 #  watch:
 #    types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/kwokwai6618/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: myX86stablemod.config
+  CONFIG_FILE: myN1.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
