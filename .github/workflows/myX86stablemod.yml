@@ -18,7 +18,7 @@ on:
     paths:
       - 'myX86stablemod.config'
   schedule:
-    - cron: 37 15 * * *
+#    - cron: 37 15 * * *
 #  watch:
 #    types: started
 
