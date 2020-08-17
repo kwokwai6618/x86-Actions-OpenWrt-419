@@ -18,7 +18,7 @@ on:
     paths:
       - 'x86ipv6fafa.config'
   schedule:
-    - cron: 18 03 * * *
+#    - cron: 18 03 * * *
 #  watch:
 #    types: started
 
