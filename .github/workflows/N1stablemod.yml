@@ -18,7 +18,7 @@ on:
     paths:
       - 'N1stablemod.config'
   schedule:
-#    - cron: 37 05 * * *
+    - cron: 37 05 * * *
 #  watch:
 #    types: started
 
