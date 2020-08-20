@@ -18,7 +18,7 @@ on:
     paths:
       - 'NanoPiNEO.config'
   schedule:
-    - cron: 05 02 * * *
+#    - cron: 05 02 * * *
 #  watch:
 #    types: started
 
