@@ -18,7 +18,7 @@ on:
     paths:
       - 'N1JD.config'
   schedule:
-#    - cron: 00 20 * * *
+    - cron: 00 20 * * *
 #  watch:
 #    types: started
 
@@ -119,7 +119,7 @@ jobs:
       id: organize
       if: env.UPLOAD_FIRMWARE == 'true' && !cancelled()
       run: |
-        cd openwrt/bin/targets/*
+        cd openwrt/bin/
         echo "::set-env name=FIRMWARE::$PWD"
         echo "::set-output name=status::success"
     - name: Upload firmware directory
