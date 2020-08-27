@@ -18,7 +18,7 @@ on:
     paths:
       - 'myx86.config'
   schedule:
-    - cron: 53 02 * * *
+    - cron: 35 06 * * *
 #  watch:
 #    types: started
 
