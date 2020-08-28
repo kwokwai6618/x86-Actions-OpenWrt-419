@@ -18,7 +18,7 @@ on:
     paths:
       - 'X86JD.config'
   schedule:
-    - cron: 00 20 * * *
+#    - cron: 00 20 * * *
 #  watch:
 #    types: started
 
