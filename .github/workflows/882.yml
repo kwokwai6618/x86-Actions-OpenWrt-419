@@ -19,8 +19,8 @@ on:
       - main
     paths:
       - '882.config'
-#  schedule:
-#    - cron: 57 11 * * *
+  schedule:
+    - cron: 07 05 * * *
 #  watch:
 #    types: started
 
