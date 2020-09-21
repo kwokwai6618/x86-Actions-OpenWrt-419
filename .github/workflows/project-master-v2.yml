@@ -20,7 +20,7 @@ on:
     paths:
       - 'project-master.config'
   schedule:
-    - cron: 59 11 * * *
+    - cron: 45 04 * * *
 #  watch:
 #    types: started
 
