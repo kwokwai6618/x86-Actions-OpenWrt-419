@@ -20,7 +20,7 @@ on:
     paths:
       - '882.config'
   schedule:
-    - cron: 07 05 * * *
+      - cron: 22 05 * * *
 #  watch:
 #    types: started
 
