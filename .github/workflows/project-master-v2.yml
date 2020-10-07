@@ -20,12 +20,12 @@ on:
     paths:
       - 'project-master.config'
 #  schedule:
-#    - cron: 53 12 * * *
+#    - cron: 43 14 * * *
 #  watch:
 #    types: started
 
 env:
-  REPO_URL: https://github.com/project-openwrt/openwrt
+  REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: project-master.config
