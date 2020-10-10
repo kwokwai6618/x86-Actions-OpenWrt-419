@@ -17,7 +17,7 @@ on:
       - master
     paths:
       - 'K2P32MJD.config'
-  schedule:
+#  schedule:
 #    - cron: 29 12 * * *
 #  watch:
 #    types: started
