@@ -17,7 +17,7 @@ on:
       - master
     paths:
       - 'x86stablelite.config'
-  schedule:
+#  schedule:
 #    - cron: 50 11 * * *
 #  watch:
 #    types: started
