@@ -17,7 +17,7 @@ on:
       - master
     paths:
       - 'x86stableSSRPJD.config'
-  schedule:
+#  schedule:
 #    - cron: 08 03 * * *
 #  watch:
 #    types: started
