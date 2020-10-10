@@ -17,7 +17,7 @@ on:
       - master
     paths:
       - 'x8632bitstable.config'
-  schedule:
+#  schedule:
 #    - cron: 53 07 * * *
 #  watch:
 #    types: started
