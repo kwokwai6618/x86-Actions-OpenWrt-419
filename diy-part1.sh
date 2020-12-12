@@ -9,7 +9,7 @@
 #=============================================================
 
 # Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # add argon theme
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
@@ -24,24 +24,30 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git
 mv lua-maxminddb package/lean/
 git clone https://github.com/jerrykuku/luci-app-vssr.git
 mv luci-app-vssr package/lean/
-rm -rf package/lean/luci-app-vssr/root/etc/china_ssr.txt
-rm -rf package/lean/luci-app-vssr/root/etc/dnsmasq.oversea/oversea_list.conf
-rm -rf package/lean/luci-app-vssr/root/etc/dnsmasq.ssr/gfw_base.conf
-rm -rf package/lean/luci-app-vssr/root/etc/dnsmasq.ssr/gfw_list.conf
 
 # add JD
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
 mv luci-app-jd-dailybonus package/lean/
 
+# add filebrowser
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser package/lean/luci-app-filebrowser
+
 # add Adguardhome
-git clone https://github.com/rufengsuixing/luci-app-adguardhome
-mv luci-app-adguardhome package/lean/
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-adguardhome package/lean/luci-app-adguardhome
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t/AdGuardHome package/lean/AdGuardHome
 
 # Add a feed source
-sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+# add passwall
+sed -i '$a src-git diy1 https://github.com/xiaorouji/openwrt-passwall.git;main' feeds.conf.default
+
+# add diskman
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-diskman package/lean/luci-app-diskman
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/parted package/lean/parted
 
 # Add Mattraks helloworld
-sed -i '$a src-git helloworld https://github.com/Mattraks/helloworld' feeds.conf.default
+#sed -i '$a src-git helloworld https://github.com/Mattraks/helloworld' feeds.conf.default
 
 # Add openclash
 # echo "src-git openclash https://github.com/vernesong/OpenClash;master" >> feeds.conf.default
